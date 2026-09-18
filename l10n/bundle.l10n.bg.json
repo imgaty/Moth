@@ -1,0 +1,14 @@
+{
+    "Light": "Светла",
+    "Dark": "Тъмна",
+    "System": "Системна",
+    "Follows {0}": "Като {0}",
+    "Change…": "Промяна…",
+    "Switch to the light theme": "Превключване към светлата тема",
+    "Switch to the dark theme": "Превключване към тъмната тема",
+    "Stopped following the system theme": "Вече не следва системната тема",
+    "Select Your Themes": "Изберете темите си",
+    "Status Bar Icons": "Икони в лентата на състоянието",
+    "Pick your light and dark themes. Type to filter.": "Изберете светлата и тъмната си тема. Пишете за филтриране.",
+    "Icon Pack": "Пакет с икони"
+}

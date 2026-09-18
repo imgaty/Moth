@@ -1,0 +1,14 @@
+{
+    "Light": "فاتح",
+    "Dark": "داكن",
+    "System": "النظام",
+    "Follows {0}": "يتبع {0}",
+    "Change…": "تغيير…",
+    "Switch to the light theme": "التبديل إلى السمة الفاتحة",
+    "Switch to the dark theme": "التبديل إلى السمة الداكنة",
+    "Stopped following the system theme": "لم يعد يتبع سمة النظام",
+    "Select Your Themes": "اختر سماتك",
+    "Status Bar Icons": "أيقونات شريط الحالة",
+    "Pick your light and dark themes. Type to filter.": "اختر سماتك الفاتحة والداكنة. اكتب للتصفية.",
+    "Icon Pack": "حزمة أيقونات"
+}

@@ -1,0 +1,14 @@
+{
+    "Light": "Світла",
+    "Dark": "Темна",
+    "System": "Системна",
+    "Follows {0}": "Як у {0}",
+    "Change…": "Змінити…",
+    "Switch to the light theme": "Перейти на світлу тему",
+    "Switch to the dark theme": "Перейти на темну тему",
+    "Stopped following the system theme": "Більше не дотримується системної теми",
+    "Select Your Themes": "Виберіть теми",
+    "Status Bar Icons": "Значки рядка стану",
+    "Pick your light and dark themes. Type to filter.": "Виберіть світлу й темну теми. Введіть текст для фільтрування.",
+    "Icon Pack": "Набір значків"
+}

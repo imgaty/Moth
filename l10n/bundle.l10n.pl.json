@@ -1,0 +1,14 @@
+{
+    "Light": "Jasny",
+    "Dark": "Ciemny",
+    "System": "System",
+    "Follows {0}": "Jak {0}",
+    "Change…": "Zmień…",
+    "Switch to the light theme": "Przełącz na jasny motyw",
+    "Switch to the dark theme": "Przełącz na ciemny motyw",
+    "Stopped following the system theme": "Nie podąża już za motywem systemu",
+    "Select Your Themes": "Wybierz motywy",
+    "Status Bar Icons": "Ikony paska stanu",
+    "Pick your light and dark themes. Type to filter.": "Wybierz jasny i ciemny motyw. Pisz, aby filtrować.",
+    "Icon Pack": "Pakiet ikon"
+}

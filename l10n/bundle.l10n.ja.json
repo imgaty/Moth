@@ -1,0 +1,14 @@
+{
+    "Light": "ライト",
+    "Dark": "ダーク",
+    "System": "システム",
+    "Follows {0}": "{0} に合わせる",
+    "Change…": "変更…",
+    "Switch to the light theme": "ライト テーマに切り替え",
+    "Switch to the dark theme": "ダーク テーマに切り替え",
+    "Stopped following the system theme": "システムのテーマに合わせるのをやめました",
+    "Select Your Themes": "テーマを選択",
+    "Status Bar Icons": "ステータス バーのアイコン",
+    "Pick your light and dark themes. Type to filter.": "ライト テーマとダーク テーマを選択します。入力して絞り込みます。",
+    "Icon Pack": "アイコン パック"
+}

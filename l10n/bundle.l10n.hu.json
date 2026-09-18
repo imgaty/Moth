@@ -1,0 +1,14 @@
+{
+    "Light": "Világos",
+    "Dark": "Sötét",
+    "System": "Rendszer",
+    "Follows {0}": "{0} szerint",
+    "Change…": "Módosítás…",
+    "Switch to the light theme": "Váltás világos témára",
+    "Switch to the dark theme": "Váltás sötét témára",
+    "Stopped following the system theme": "Már nem követi a rendszer témáját",
+    "Select Your Themes": "Témák kiválasztása",
+    "Status Bar Icons": "Állapotsor ikonjai",
+    "Pick your light and dark themes. Type to filter.": "Válassza ki a világos és a sötét témáját. Gépeljen a szűréshez.",
+    "Icon Pack": "Ikoncsomag"
+}

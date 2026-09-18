@@ -1,0 +1,14 @@
+{
+    "Light": "浅色",
+    "Dark": "深色",
+    "System": "系统",
+    "Follows {0}": "跟随 {0}",
+    "Change…": "更改…",
+    "Switch to the light theme": "切换到浅色主题",
+    "Switch to the dark theme": "切换到深色主题",
+    "Stopped following the system theme": "已停止跟随系统主题",
+    "Select Your Themes": "选择主题",
+    "Status Bar Icons": "状态栏图标",
+    "Pick your light and dark themes. Type to filter.": "选择你的浅色和深色主题。键入以筛选。",
+    "Icon Pack": "图标包"
+}

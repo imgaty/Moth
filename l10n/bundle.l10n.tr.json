@@ -1,0 +1,14 @@
+{
+    "Light": "Açık",
+    "Dark": "Koyu",
+    "System": "Sistem",
+    "Follows {0}": "{0} ile aynı",
+    "Change…": "Değiştir…",
+    "Switch to the light theme": "Açık temaya geç",
+    "Switch to the dark theme": "Koyu temaya geç",
+    "Stopped following the system theme": "Artık sistem temasını takip etmiyor",
+    "Select Your Themes": "Temalarınızı Seçin",
+    "Status Bar Icons": "Durum Çubuğu Simgeleri",
+    "Pick your light and dark themes. Type to filter.": "Açık ve koyu temalarınızı seçin. Filtrelemek için yazın.",
+    "Icon Pack": "Simge Paketi"
+}

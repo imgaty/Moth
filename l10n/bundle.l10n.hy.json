@@ -1,0 +1,14 @@
+{
+    "Light": "Բաց",
+    "Dark": "Մուգ",
+    "System": "Համակարգ",
+    "Follows {0}": "Ըստ {0}-ի",
+    "Change…": "Փոխել…",
+    "Switch to the light theme": "Անցնել բաց թեմային",
+    "Switch to the dark theme": "Անցնել մուգ թեմային",
+    "Stopped following the system theme": "Այլևս չի հետևում համակարգի թեմային",
+    "Select Your Themes": "Ընտրեք թեմաները",
+    "Status Bar Icons": "Կարգավիճակի գոտու պատկերակներ",
+    "Pick your light and dark themes. Type to filter.": "Ընտրեք ձեր բաց և մուգ թեմաները։ Մուտքագրեք՝ զտելու համար։",
+    "Icon Pack": "Պատկերակների փաթեթ"
+}

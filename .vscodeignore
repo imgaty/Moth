@@ -1,0 +1,7 @@
+.vscode/**
+.gitignore
+**/.DS_Store
+test/**
+src/build-font.py
+docs/**
+assets/screenshots/**

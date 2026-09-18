@@ -1,0 +1,262 @@
+{
+    "name": "moth",
+    "displayName": "Moth",
+    "description": "Quick access to Visual Studio Code's quality-of-life settings, starting with a light and dark theme switcher in the status bar.",
+    "version": "0.1.0",
+    "publisher": "imgaty",
+    "license": "MIT",
+    "author": "Gaty",
+    "pricing": "Free",
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "theme",
+        "theme switcher",
+        "dark mode",
+        "light mode",
+        "system theme",
+        "auto dark mode",
+        "toggle",
+        "appearance",
+        "status bar",
+        "icons",
+        "settings",
+        "quality of life",
+        "productivity",
+        "offline",
+        "sun",
+        "moon"
+    ],
+    "icon": "assets/img/cover.png",
+    "galleryBanner": {
+        "color": "#0d0d0d",
+        "theme": "dark"
+    },
+    "badges": [
+        {
+            "url": "https://img.shields.io/badge/dependencies-none-000?style=for-the-badge",
+            "href": "https://github.com/imgaty/Moth/blob/main/package.json",
+            "description": "No runtime dependencies"
+        },
+        {
+            "url": "https://img.shields.io/badge/works_offline-000?style=for-the-badge",
+            "href": "https://github.com/imgaty/Moth",
+            "description": "Works entirely offline"
+        },
+        {
+            "url": "https://img.shields.io/badge/28_languages-000?style=for-the-badge",
+            "href": "https://github.com/imgaty/Moth/tree/main/l10n",
+            "description": "Translated into 28 languages"
+        },
+        {
+            "url": "https://img.shields.io/badge/MIT_license-000?style=for-the-badge",
+            "href": "https://github.com/imgaty/Moth/blob/main/LICENSE",
+            "description": "MIT license"
+        }
+    ],
+    "qna": "https://github.com/imgaty/Moth/issues",
+    "homepage": "https://github.com/imgaty/Moth#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imgaty/Moth.git"
+    },
+    "bugs": {
+        "url": "https://github.com/imgaty/Moth/issues"
+    },
+    "scripts": {
+        "test": "node test/extension.test.js && node test/languages.test.js",
+        "package": "npx @vscode/vsce package --no-dependencies"
+    },
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "capabilities": {
+        "untrustedWorkspaces": {
+            "supported": true
+        },
+        "virtualWorkspaces": true
+    },
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "main": "./src/extension.js",
+    "l10n": "./l10n",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "contributes": {
+        "icons": {
+            "moth-lucide-sun": {
+                "description": "Lucide sun",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E000"
+                }
+            },
+            "moth-lucide-moon": {
+                "description": "Lucide moon",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E001"
+                }
+            },
+            "moth-tabler-sun": {
+                "description": "Tabler sun",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E002"
+                }
+            },
+            "moth-tabler-moon": {
+                "description": "Tabler moon",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E003"
+                }
+            },
+            "moth-phosphor-sun": {
+                "description": "Phosphor sun",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E004"
+                }
+            },
+            "moth-phosphor-moon": {
+                "description": "Phosphor moon",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E005"
+                }
+            },
+            "moth-phosphor-fill-sun": {
+                "description": "Phosphor Fill sun",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E006"
+                }
+            },
+            "moth-phosphor-fill-moon": {
+                "description": "Phosphor Fill moon",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E007"
+                }
+            },
+            "moth-bootstrap-sun": {
+                "description": "Bootstrap Icons sun",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E008"
+                }
+            },
+            "moth-bootstrap-moon": {
+                "description": "Bootstrap Icons moon",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E009"
+                }
+            },
+            "moth-material-sun": {
+                "description": "Material Symbols sun",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E00A"
+                }
+            },
+            "moth-material-moon": {
+                "description": "Material Symbols moon",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E00B"
+                }
+            },
+            "moth-material-filled-sun": {
+                "description": "Material Symbols Filled sun",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E00C"
+                }
+            },
+            "moth-material-filled-moon": {
+                "description": "Material Symbols Filled moon",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E00D"
+                }
+            },
+            "moth-fontawesome-sun": {
+                "description": "Font Awesome sun",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E00E"
+                }
+            },
+            "moth-fontawesome-moon": {
+                "description": "Font Awesome moon",
+                "default": {
+                    "fontPath": "./assets/icons.woff2",
+                    "fontCharacter": "\\E00F"
+                }
+            }
+        },
+        "configuration": {
+            "title": "Moth",
+            "properties": {
+                "moth.icons": {
+                    "type": "string",
+                    "enum": [
+                        "lucide",
+                        "tabler",
+                        "phosphor",
+                        "phosphor-fill",
+                        "bootstrap",
+                        "material",
+                        "material-filled",
+                        "fontawesome"
+                    ],
+                    "enumItemLabels": [
+                        "Lucide",
+                        "Tabler",
+                        "Phosphor",
+                        "Phosphor Fill",
+                        "Bootstrap Icons",
+                        "Material Symbols",
+                        "Material Symbols Filled",
+                        "Font Awesome"
+                    ],
+                    "default": "lucide",
+                    "markdownDescription": "The icon style of the sun and moon on the status bar button. It can also be chosen from **Change…** in the Moth panel."
+                }
+            }
+        },
+        "commands": [
+            {
+                "command": "moth.toggle",
+                "title": "Toggle Light / Dark Theme",
+                "category": "Moth"
+            },
+            {
+                "command": "moth.useLightTheme",
+                "title": "Use Light Theme",
+                "category": "Moth"
+            },
+            {
+                "command": "moth.useDarkTheme",
+                "title": "Use Dark Theme",
+                "category": "Moth"
+            },
+            {
+                "command": "moth.followSystemTheme",
+                "title": "Follow System Theme",
+                "category": "Moth"
+            },
+            {
+                "command": "moth.chooseThemes",
+                "title": "Choose Light and Dark Themes...",
+                "category": "Moth"
+            }
+        ]
+    }
+}
