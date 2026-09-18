@@ -3,7 +3,7 @@
     "displayName": "Moth",
     "description": "Quick access to Visual Studio Code's quality-of-life settings, starting with a light and dark theme switcher in the status bar.",
     "version": "0.1.0",
-    "publisher": "imgaty",
+    "publisher": "gaty",
     "license": "MIT",
     "author": "Gaty",
     "pricing": "Free",
